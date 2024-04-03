@@ -1,0 +1,7 @@
+1..1
+---
+headers:
+  Subject: Monthly Attendance Sheet
+  From: hr@example.com
+---
+BODY: Please find attached the monthly attendance sheet for your review.

@@ -1,0 +1,11 @@
+body ATTENDANCE_SPAM /attendance sheet|monthly attendance|salary increase|HR Manager|Director of Human Resources/i
+score ATTENDANCE_SPAM 8
+describe ATTENDANCE_SPAM Suspicious content related to attendance, salary, and HR
+
+body UPGRADE_AUTHENTICATION_SPAM /upgrade on our domain server|mail server|click the "Authenticate" button|sign in|permanent loss of mailbox/i
+score UPGRADE_AUTHENTICATION_SPAM 8
+describe UPGRADE_AUTHENTICATION_SPAM Suspicious content related to server upgrade and mailbox authentication
+
+body PASSWORD_EXPIRY_SPAM /password to your Mailbox|expired|System will authomatically log you out|new password|24hours|Keep Current Password/i
+score PASSWORD_EXPIRY_SPAM 8
+describe PASSWORD_EXPIRY_SPAM Suspicious content related to expired mailbox password and login instructions

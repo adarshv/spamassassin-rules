@@ -1,0 +1,7 @@
+1..1
+---
+headers:
+  Subject: Urgent: Authenticate Your Mail Server Upgrade
+  From: admin@example.com
+---
+BODY: Click the "Authenticate" button to complete the upgrade process for our mail server.
